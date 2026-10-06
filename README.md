@@ -29,6 +29,4 @@ Vite emits the homepage and `/about/` into `dist/`. Preview serves the productio
 
 Anselm Kiefer, *Merkaba*, 2010. © Anselm Kiefer. [Image source: Gagosian](https://gagosian.com/artists/anselm-kiefer/).
 
-The supplied pale artwork treatment is used as a decorative background on both pages, encoded as WebP at a web-appropriate resolution without cropping or changing its composition. CSS adds a light wash to keep text readable. A visible footer credit links to Gagosian.
-
-The homepage is intentionally limited to categories and opening information. The About text was supplied by the owner. The opening is spring 2027; address and hours remain omitted.
+The supplied pale artwork treatment is used as a decorative background on both pages, encoded as WebP at a web-appropriate resolution without cropping or changing its composition. CSS adds a light wash to keep text readable.
