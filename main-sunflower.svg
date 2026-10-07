@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 520" role="img" aria-labelledby="title desc">
+  <title id="title">Main sunflower isolated from the painting</title>
+  <desc id="desc">A hand-traced, rough black silhouette of the tall central sunflower, with transparent background.</desc>
+  <g fill="#211f1e" stroke="#211f1e" stroke-linecap="round" stroke-linejoin="round">
+    <!-- irregular flower head and pointed petals -->
+    <path d="M106 21
+      L111 2 116 19 124 7 125 23 136 4 135 25 151 13 145 29
+      164 19 153 34 176 30 159 43 183 44 161 51 184 59 162 62
+      181 75 158 72 175 89 153 81 163 101 145 88 149 109 133 93
+      132 116 121 96 114 119 106 97 95 117 95 94 80 111 84 89
+      65 101 73 81 50 88 65 72 42 73 63 62 38 57 61 53
+      40 42 65 46 48 31 70 38 59 19 78 31 74 10 89 27 94 4 100 24 Z"/>
+    <path d="M76 33 C87 22 110 18 129 26 C148 34 159 50 157 67
+      C155 86 137 99 112 98 C88 98 67 84 63 65 C60 53 65 41 76 33 Z"/>
+
+    <!-- chipped highlights retained as transparent cuts -->
+    <g fill="#fff" stroke="none" opacity=".25">
+      <path d="M84 36 l9 -4 3 3 -10 5 Z"/>
+      <path d="M139 51 l7 -2 -1 5 -7 2 Z"/>
+      <path d="M101 83 l5 -3 3 4 -7 2 Z"/>
+    </g>
+
+    <!-- crooked primary stalk -->
+    <path d="M126 94
+      C129 112 138 125 143 142
+      C149 161 145 179 151 197
+      C157 216 168 229 169 249
+      C170 278 158 299 160 326
+      C162 356 177 381 172 411
+      C168 436 156 461 153 506"
+      fill="none" stroke-width="9"/>
+    <path d="M134 96
+      C137 115 146 126 151 143
+      C157 162 153 182 159 199
+      C166 217 177 231 177 252
+      C177 278 166 303 168 327
+      C170 355 184 382 180 414
+      C177 442 165 468 162 508"
+      fill="none" stroke-width="3" opacity=".7"/>
+
+    <!-- upper right seed bract -->
+    <path d="M142 125 C154 132 164 145 164 157 C157 151 151 148 146 145
+      C150 157 150 171 146 181 C140 165 137 145 142 125 Z"/>
+
+    <!-- long left leaf -->
+    <path d="M149 180
+      C135 191 124 211 122 234
+      C120 252 124 268 132 282
+      C135 257 142 238 154 219
+      C160 208 160 193 149 180 Z"/>
+    <path d="M150 190 C143 216 136 244 132 272" fill="none" stroke="#f7f4ef" stroke-width="1.5" opacity=".35"/>
+
+    <!-- right leaf -->
+    <path d="M166 236
+      C183 241 197 257 201 277
+      C187 271 177 267 167 256
+      C164 250 163 243 166 236 Z"/>
+
+    <!-- lower torn leaves -->
+    <path d="M161 291
+      C143 305 132 326 132 348
+      L143 340 139 363 150 352 151 380 159 361
+      C165 341 168 315 161 291 Z"/>
+    <path d="M169 330
+      C186 341 195 359 194 381
+      L185 370 184 394 177 382 173 408 168 385
+      C164 368 163 347 169 330 Z"/>
+    <path d="M164 397
+      C148 415 140 439 143 467
+      L151 452 151 484 158 466 161 497 168 469
+      C172 446 171 419 164 397 Z"/>
+
+    <!-- dry scars and fibers in the stalk -->
+    <g fill="none" stroke="#f7f4ef" stroke-width="1.6" opacity=".45">
+      <path d="M151 153 C149 172 155 184 153 205"/>
+      <path d="M160 217 C165 236 163 255 159 274"/>
+      <path d="M164 285 C158 310 164 331 162 351"/>
+      <path d="M171 371 C174 393 165 419 163 437"/>
+      <path d="M158 450 C160 469 155 488 154 503"/>
+    </g>
+
+    <!-- a few loose ink flecks from the original edge -->
+    <g stroke="none">
+      <circle cx="181" cy="99" r="3"/><circle cx="187" cy="107" r="1.8"/>
+      <circle cx="49" cy="91" r="2"/><circle cx="55" cy="99" r="1.2"/>
+      <circle cx="124" cy="14" r="1.5"/>
+    </g>
+  </g>
+</svg>

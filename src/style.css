@@ -5,7 +5,8 @@
   --charcoal: #292d2c;
   --rule: #292d2c40;
   --font: 'Adobe Garamond Pro', 'EB Garamond', Garamond, 'Times New Roman', serif;
-  font-family: var(--font);
+  --font-display: 'Big Moore', var(--font);
+  font-family: var(--font-display);
   color: var(--charcoal);
   background: var(--ash);
   font-synthesis: none;
@@ -40,14 +41,14 @@ nav a[aria-current='page'] { text-decoration: underline; }
 .home-intro h1 { font-size: 17px; line-height: 1.6; font-weight: 400; letter-spacing: 0.045em; }
 .study-line { margin-top: 4px; font-size: 17px; line-height: 1.6; letter-spacing: 0.045em; }
 .study-line em { font-weight: 400; }
-.opening { margin-top: 17px; font-size: 13px; line-height: 1.6; }
+.opening { margin-top: 17px; font-size: 14px; line-height: 1.6; }
 .site-footer { display: grid; grid-template-columns: 1fr auto; gap: 24px; padding: 30px 0 22px; font-size: 13px; line-height: 1.6; }
 .footer-links { display: flex; gap: 50px; grid-column: 2; grid-row: 1; }
 .footer-links a { text-decoration: none; }
 .footer-links a:hover { text-decoration: underline; }
 .copyright { grid-column: 1; grid-row: 1; font-size: 12px; }
 .about-main { flex: 1; padding: 80px 0 100px; }
-.about-copy { max-width: 760px; font-size: 14px; line-height: 1.65; letter-spacing: -0.015em; }
+.about-copy { max-width: 760px; font-size: 30px; line-height: 1.7; letter-spacing: -0.015em; }
 .about-copy strong { font-weight: 600; }
 @media (max-width: 600px) {
   .page { padding: 0 22px; }
@@ -61,5 +62,5 @@ nav a[aria-current='page'] { text-decoration: underline; }
   .footer-links { flex-wrap: wrap; gap: 15px 30px; grid-column: 1; grid-row: 2; }
   .copyright { max-width: 290px; }
   .about-main { padding: 45px 0 60px; }
-  .about-copy { font-size: 14px; line-height: 1.65; }
+  .about-copy { font-size: 16px; line-height: 1.65; }
 }
