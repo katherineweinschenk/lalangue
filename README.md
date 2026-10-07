@@ -27,6 +27,4 @@ Vite emits the homepage and `/about/` into `dist/`. Preview serves the productio
 
 ## Artwork
 
-Anselm Kiefer, *Merkaba*, 2010. © Anselm Kiefer. [Image source: Gagosian](https://gagosian.com/artists/anselm-kiefer/).
-
-The supplied pale artwork treatment is used as a decorative background on both pages, encoded as WebP at a web-appropriate resolution without cropping or changing its composition. CSS adds a light wash to keep text readable.
+The supplied original artwork is used as a decorative background on both pages, encoded as an optimized PNG without cropping or changing its composition. CSS adds a light wash to keep text readable.

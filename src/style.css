@@ -4,8 +4,7 @@
   --bone: #ecebe2;
   --charcoal: #292d2c;
   --rule: #292d2c40;
-  /* Replace with Neue Haas Grotesk when the web font is ready. */
-  --font: Helvetica, Arial, sans-serif;
+  --font: 'Adobe Garamond Pro', 'EB Garamond', Garamond, 'Times New Roman', serif;
   font-family: var(--font);
   color: var(--charcoal);
   background: var(--ash);
@@ -19,7 +18,7 @@ body::before {
   position: fixed;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(#d7d8d070, #d7d8d070), url('/images/merkaba-background.webp') center / cover no-repeat;
+  background: linear-gradient(#d7d8d070, #d7d8d070), url('/images/background.png') center / cover no-repeat;
   pointer-events: none;
 }
 a { color: inherit; text-underline-offset: 0.25em; }
@@ -31,15 +30,18 @@ p, h1 { margin: 0; }
 .skip-link { position: absolute; top: 10px; left: 3.3%; padding: 12px; background: var(--bone); transform: translateY(-160%); z-index: 2; }
 .skip-link:focus { transform: none; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
-.site-header { min-height: 160px; display: flex; align-items: center; justify-content: space-between; gap: 28px; border-bottom: 1px solid var(--rule); }
-.wordmark { font-size: clamp(40px, 4vw, 66px); font-weight: 400; letter-spacing: -0.065em; line-height: 1.1; text-decoration: none; }
+.site-header { min-height: 160px; display: flex; align-items: center; justify-content: space-between; gap: 28px; }
+.wordmark { display: block; width: clamp(210px, 24vw, 330px); line-height: 0; text-decoration: none; }
+.wordmark img { display: block; width: 100%; height: auto; }
 nav { display: flex; gap: 38px; font-size: 16px; }
 nav a { padding: 12px 0; text-decoration: none; }
 nav a[aria-current='page'] { text-decoration: underline; }
 .home-main { flex: 1; min-height: 420px; padding: 110px 0; }
 .home-intro h1 { font-size: 17px; line-height: 1.6; font-weight: 400; letter-spacing: 0.045em; }
+.study-line { margin-top: 4px; font-size: 17px; line-height: 1.6; letter-spacing: 0.045em; }
+.study-line em { font-weight: 400; }
 .opening { margin-top: 17px; font-size: 13px; line-height: 1.6; }
-.site-footer { display: grid; grid-template-columns: 1fr auto; gap: 24px; border-top: 1px solid var(--rule); padding: 30px 0 22px; font-size: 13px; line-height: 1.6; }
+.site-footer { display: grid; grid-template-columns: 1fr auto; gap: 24px; padding: 30px 0 22px; font-size: 13px; line-height: 1.6; }
 .footer-links { display: flex; gap: 50px; grid-column: 2; grid-row: 1; }
 .footer-links a { text-decoration: none; }
 .footer-links a:hover { text-decoration: underline; }
@@ -50,10 +52,11 @@ nav a[aria-current='page'] { text-decoration: underline; }
 @media (max-width: 600px) {
   .page { padding: 0 22px; }
   .site-header { min-height: 110px; gap: 20px; }
-  .wordmark { font-size: 39px; }
+  .wordmark { width: min(48vw, 225px); }
   nav { gap: 22px; font-size: 13px; }
   .home-main { min-height: 360px; padding: 70px 0; }
   .home-intro h1 { font-size: 15px; }
+  .study-line { font-size: 15px; }
   .site-footer { grid-template-columns: 1fr; gap: 20px; padding: 24px 0; font-size: 12px; }
   .footer-links { flex-wrap: wrap; gap: 15px 30px; grid-column: 1; grid-row: 2; }
   .copyright { max-width: 290px; }
