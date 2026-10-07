@@ -5,7 +5,7 @@
   --charcoal: #292d2c;
   --rule: #292d2c40;
   --font: 'Adobe Garamond Pro', 'EB Garamond', Garamond, 'Times New Roman', serif;
-  --font-display: 'Big Moore', var(--font);
+  --font-display: 'bigmoore', var(--font);
   font-family: var(--font-display);
   color: var(--charcoal);
   background: var(--ash);
